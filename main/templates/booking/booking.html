@@ -1,4 +1,4 @@
-{% extends 'loginbase.html' %}
+{% extends 'bookingbase.html' %}
 
 {% block sidebar %}
 <ul>
@@ -9,11 +9,18 @@
 {% endblock %}
 
 {% block content %}
-    <form action="/booking/createbooking/" method="post">{% csrf_token %}
-    <ul>
-        {{ form }}
-    </ul>
+    <form action="/booking/createbooking/" method="post">
+        {% csrf_token %}
+    <div class="container">
+         <div class="jumbotron">
+
+                  {{ form }}
+
+
     	<button type="submit" class="btn btn-primary btn-lg btn-block">Create Booking</button>
+
+        </div>
+    </div>
 
 
     </form>
