@@ -1,0 +1,21 @@
+{% extends 'loginbase.html' %}
+
+{% block sidebar %}
+<ul>
+    <l>
+        <a href="#">Back to login</a>
+    </l>
+</ul>
+{% endblock %}
+
+{% block content %}
+    <form action="/booking/createbooking/" method="post">{% csrf_token %}
+    <ul>
+        {{ form }}
+    </ul>
+    	<button type="submit" class="btn btn-primary btn-lg btn-block">Create Booking</button>
+
+
+    </form>
+
+{% endblock %}

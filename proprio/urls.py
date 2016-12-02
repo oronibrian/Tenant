@@ -16,4 +16,5 @@ urlpatterns = patterns('',
     url(r'^accounts/login/$', 'django.contrib.auth.views.login'),
     url(r'^accounts/logout/$', lambda request: logout(request, '/')),
     url(media_regex, 'proprio.views.serve_static'),
+    url(r'^booking/', include("booking.urls")),
 )
