@@ -493,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480686060840</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="booking app working using model forms full&#10;">
+      <created>1480688514973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480688514973</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -530,7 +537,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="booking app&#10;" />
     <MESSAGE value="booking app working using model forms&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="booking app working using model forms&#10;" />
+    <MESSAGE value="booking app working using model forms full&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="booking app working using model forms full&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -603,6 +611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -665,6 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
